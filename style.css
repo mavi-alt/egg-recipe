@@ -1,0 +1,127 @@
+html {
+  background-color: rgba(243, 229, 216, 1);
+  font-family: "Young Serif", serif;
+}
+body {
+  background-color: white;
+  padding: 50px;
+  margin: 100px 400px;
+  border-radius: 8px;
+  display: grid;
+  place-content: center;
+  gap: 20px;
+}
+@media (max-width: 1500px) {
+  body {
+    background-color: white;
+    padding: 25px;
+    margin: 50px 150px;
+    display: grid;
+    place-content: center;
+  }
+}
+@media (max-width: 700px) {
+  body {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 75px;
+    display: grid;
+    place-content: center;
+  }
+}
+@media (max-width: 443px) {
+  body {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 25px;
+    display: grid;
+  }
+  .time {
+    padding: 5px 10px;
+    margin: 20px;
+  }
+}
+p {
+  font-size: 16px;
+}
+h1 {
+  color: rgba(56, 55, 53, 1);
+}
+h2 {
+  color: rgba(123, 66, 47, 1);
+}
+h3 {
+  color: rgba(112, 46, 73, 1);
+}
+.one::before {
+  content: "•";
+  color: rgba(112, 46, 73, 1);
+  display: inline-block;
+  width: 2em;
+  margin-left: -3em;
+  padding: 3px;
+}
+.two::before {
+  content: "•";
+  color: rgba(123, 66, 47, 1);
+  display: inline-block;
+  width: 2em;
+  margin-left: 1em;
+  padding: 3px;
+}
+ul,
+li,
+p {
+  font-family: "Outfit", sans-serif;
+  color: rgba(56, 55, 53, 1);
+}
+
+ul,
+.two {
+  list-style: none;
+}
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+li::before {
+  content: counter(li);
+  color: rgba(123, 66, 47, 1);
+  display: inline-block;
+  width: 2em;
+  margin-left: -2em;
+}
+li {
+  counter-increment: li;
+}
+.border {
+  border-top: 1px solid rgba(224, 224, 224, 1);
+  padding: 15px;
+}
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+.time {
+  background-color: rgba(255, 247, 252, 1);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+.colorone {
+  gap: 10px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  column-gap: 200px;
+  margin: 2px 10px;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  column-gap: 200px;
+  margin: 2px 10px;
+}
