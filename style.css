@@ -37,8 +37,18 @@ body {
     display: grid;
   }
   .time {
-    padding: 5px 10px;
+    padding: 5px;
     margin: 20px;
+  }
+  h1,
+  h2,
+  h3,
+  p,
+  li {
+    margin: 15px 30px;
+  }
+  h1 {
+    text-align: center;
   }
 }
 p {
