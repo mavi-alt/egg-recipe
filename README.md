@@ -12,10 +12,6 @@ Uma página de receita responsiva para um ovo frito, desenvolvida como parte de 
 - [Stack tecnológica](#stack-tecnológica)
 - [Como visualizar / executar localmente](#como-visualizar--executar-localmente)
 - [Notas de acessibilidade e responsividade](#notas-de-acessibilidade-e-responsividade)
-- [Melhorias futuras](#melhorias-futuras)
-- [Créditos](#créditos)
-- [Autor](#autor)
-- [Licença](#licença)
 
 ## Sobre o projeto
 Este é um layout simples de uma página de receita que demonstra:
