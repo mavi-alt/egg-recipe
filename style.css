@@ -120,22 +120,15 @@ img {
   }
 }
 
-@media (max-width: 500px) {
-    body {
-    padding: 15px;
-    margin: 5px;
-    gap: 0;
-  }
-}
-
 /* Samsung responsiviness */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   html {
   background-color: white;
 }
   body {
   padding: 0;
   margin: 0;
+  gap: 0;
 }
 h1, h2, .border {
   margin: 5px 15px;
